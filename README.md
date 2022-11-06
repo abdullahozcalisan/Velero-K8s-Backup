@@ -103,13 +103,13 @@ velero schedule create every15min --schedule="*/15 * * * *" --include-namespaces
 
 
 * Backups and Restores
-<br> <br>
+<br><br>
 <img title="Backups and Restores" alt="Backups and Restores" src="./images/backups.png">
-
+<br>
 * S3 Bucket
-<br> <br>
+<br><br>
 <img title="S3 Bucket" alt="S3 Bucket" src="./images/s3-bucket.png">
-
+<br>
 * Restored Resources
-<br> <br>
+<br><br>
 <img title="Restored Resources" alt="Restored Resources" src="./images/restored-resources.png">
