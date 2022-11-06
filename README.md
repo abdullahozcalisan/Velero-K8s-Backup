@@ -100,3 +100,16 @@ Schedule custom backup to run every 15 min
 ```
 velero schedule create every15min --schedule="*/15 * * * *" --include-namespaces='*'  --exclude-namespaces app-ns2 --exclude-resources secrets --ttl 0h15m0s
 ```
+
+
+* Backups and Restores
+<br> <br>
+<img title="Backups and Restores" alt="Backups and Restores" src="./images/backups.png">
+
+* S3 Bucket
+<br> <br>
+<img title="S3 Bucket" alt="S3 Bucket" src="./images/s3-bucket.png">
+
+* Restored Resources
+<br> <br>
+<img title="Restored Resources" alt="Restored Resources" src="./images/restored-resources.png">
